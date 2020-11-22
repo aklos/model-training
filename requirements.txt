@@ -1,0 +1,4 @@
+Pillow==8.0.1
+dlib==19.21.0
+scikit-image==0.17.2
+requests==2.24.0

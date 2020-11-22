@@ -6,6 +6,11 @@ apt-get update
 # Install git
 apt-get install -y git
 
+# Install python requirements
+pip install wheel
+pip install cmake
+pip install -r requirements.txt
+
 # Clone stylegan2 repo
 rm -rf stylegan2/
 git clone https://github.com/aklos/stylegan2.git
