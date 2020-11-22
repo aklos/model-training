@@ -22,4 +22,4 @@ mkdir -p /storage/results
 cd stylegan2/
 
 # Run model training
-python3 run_training.py --num-gpus=1 --data-dir=/storage/datasets --config=config-f --dataset=lowpoly --mirror-augment=true --metrics=None --result-dir=/storage/results
+python3 run_training.py --num-gpus=1 --data-dir=/storage/datasets --config=config-e --dataset=lowpoly --mirror-augment=true --metrics=none --result-dir=/storage/results --total-kimg=10000

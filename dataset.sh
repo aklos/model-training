@@ -22,4 +22,4 @@ mkdir -p /storage/datasets/lowpoly
 cd stylegan2/
 
 # Create dataset from aligned_images
-python3 dataset_tool.py create_from_images /storage/datasets/lowpoly /storage/test/aligned_images
+python3 dataset_tool.py create_from_images /storage/datasets/lowpoly /storage/test/aligned_images --resolution=1024
